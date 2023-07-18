@@ -1,0 +1,1951 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        :root {
+            --theme: #f27935;
+        }
+
+        * {
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+
+        main {
+            background-color: #ecf4fb;
+            width: 100%;
+            height: 5171.270px;
+        }
+
+        .header {
+            width: 100%;
+            height: 94.141;
+            background-color: transparent;
+        }
+
+        .main {
+            width: auto;
+            height: auto;
+        }
+
+        img {
+            vertical-align: middle;
+            border: 0;
+
+        }
+
+        .head__section {
+            width: 100%;
+            background-color: #000000;
+            height: 35px;
+
+
+        }
+
+        .head__section--css {
+            position: relative;
+            width: 1240px;
+            display: block !important;
+            float: none !important;
+            margin-left: auto !important;
+            margin-right: auto !important;
+            clear: both !important;
+
+        }
+
+        .head__topmenu {
+            width: 100%;
+            background-color: var(--theme);
+            height: 55.141px;
+            box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.4);
+            position: relative;
+        }
+
+        .container__top {
+            width: 1240px;
+            height: 342.592px;
+            margin-top: 36px;
+            margin-left: 59px;
+        }
+
+        .container__top__image {
+            background-color: blue;
+            height: 291.592px;
+            width: 818px;
+            float: left;
+        }
+
+        .container__top__sidepanel {
+            background-color: #f3eded;
+            height: 291.592px;
+            width: 413.328px;
+            float: left;
+            margin-left: 8px;
+            box-shadow: -4px 2px 12px 2px #817e7e;
+        }
+
+        .intro__box {
+            width: 1270px;
+            height: 46.188px;
+            position: relative;
+            margin-bottom: 45px;
+            top: 0px;
+            margin-top: 33px;
+        }
+
+        .intro__box>h1 {
+            color: #333;
+            font-size: 22px;
+            text-transform: capitalize;
+            font-weight: 600;
+            text-align: center;
+            width: 823.500px;
+            margin: 12px auto 30px;
+            border: 1px solid #d5d5d5;
+            padding: 10px 0;
+            border-radius: 6px;
+            z-index: 999999;
+            background-color: #ecf4fb;
+            letter-spacing: .4px;
+            font-family: myroboto !important;
+        }
+
+        .intro__box__line {
+            width: 98%;
+            height: 1px;
+            background-color: #d5d5d5;
+            display: inline-block;
+            position: absolute;
+            border: 2px solid red;
+            bottom: 21px;
+            left: 50%;
+            transform: translateX(-50%);
+            z-index: -1;
+        }
+
+        .dealoftheday {
+            width: 1240px;
+            height: 215.141px;
+            margin-left: 45px;
+            margin-top: 2px;
+            padding: 0px 15px;
+        }
+
+        .dealoftheday>h2>img {
+            vertical-align: bottom;
+            padding-right: 8px;
+        }
+
+        .dealoftheday>h2 {
+            margin: 0;
+            padding-bottom: 18px;
+        }
+
+        .dealoftheday>ul {
+            margin: 0;
+            padding: 0;
+            /* float: left; */
+            width: 100%;
+            display: flex;
+            height: 169.14px;
+        }
+
+        .dealoftheday>ul>li {
+            width: 298.75px;
+            height: 169.14px;
+            list-style-type: none;
+            border-radius: 10px;
+        }
+
+        .dealoftheday>ul>li>a {
+            float: left;
+            width: 100%;
+            box-shadow: 0px 2px 5px rgb(0 0 0 / 20%);
+            border-radius: 10px;
+        }
+
+        .dealoftheday>ul>li>a>img {
+            width: 100%;
+            display: inline-block;
+            border-radius: 10px;
+        }
+
+        .dealoftheday>ul>li:not(:last-child) {
+            margin-right: 15px;
+        }
+
+        .featureddeals {
+            width: 1240px;
+            height: 228.656px;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 26px;
+        }
+
+        .featureddeals>h2 {
+            background: url(https://freekaamaal.com/images/common-images/must-buy.png)no-repeat;
+            background-position: -11px 0px;
+            padding: 18px 36px 0px;
+            text-transform: capitalize;
+            margin: 10px 0 15px;
+            padding: 15px 36px 4px;
+            font-size: 24px;
+            font-weight: 600;
+            color: #333;
+            letter-spacing: -1px;
+        }
+
+        .featureddeals__list {
+            margin: 0 22px 0 0px !important;
+            border: 1px solid rgba(0, 0, 0, 0.05);
+            border-radius: 10px;
+            list-style-type: none;
+            list-style: none;
+            width: 194px !important;
+            height: 99.266px !important;
+        }
+
+        .featureddeals__list>ul {
+            width: 194px !important;
+            height: 99.266px !important;
+            float: left;
+            display: flex;
+            list-style-type: none;
+        }
+
+        .featureddeals__list>ul>li {
+            width: 194px !important;
+            height: 99.266px !important;
+            float: left;
+        }
+
+        .featureddeals__list>ul>li:not(:last-child) {
+            margin-right: 25px;
+        }
+
+        .featureddeals__list>ul>li>a {
+            float: left;
+            width: 100%;
+            position: relative;
+            z-index: 9999;
+            cursor: pointer;
+        }
+
+        .featureddeals__list>ul>li>a>div {
+            background: #fff;
+            border-radius: 10px;
+            padding: 10px;
+            float: left;
+            box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.20);
+        }
+
+        .featureddeals__list>ul>li>a>div>p {
+            float: left;
+            font-family: 'Open Sans', sans-serif;
+            font-size: 13px;
+            color: #575757;
+            margin: 0;
+        }
+
+        .featureddeals__list>ul>li>a>div>p>span {
+            width: 40%;
+            float: left;
+        }
+
+        .featureddeals__list--price {
+            padding: 10px 0 0;
+            width: 56% !important;
+
+        }
+
+        .featureddeals__list--price del {
+            float: right;
+            width: 100%;
+            text-align: right;
+            font-size: 13px;
+            color: #bababa;
+        }
+
+        .featureddeals__list--price label {
+            float: right;
+            width: 100%;
+            text-align: right;
+            font-size: 18px;
+            color: #f27935;
+
+        }
+
+        .featureddeals__list__div {
+            background: #fff;
+            border-radius: 10px;
+            padding: 10px;
+            float: left;
+            width: 194px;
+            height: 126.266px;
+            box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.20);
+
+        }
+
+        .featureddeals__list__div>p>span>img {
+            width: 100%;
+            height: 100%;
+        }
+
+        .featureddeals__list__div>p:nth-child(2) {
+            height: 35px;
+            margin: 5px 0 0 !important;
+
+        }
+
+        .homenav {
+            width: 1240px;
+            height: 90px;
+            position: relative;
+            margin: 0 auto !important;
+        }
+
+        .homenav__inner {
+            width: 1240px;
+            height: 57px;
+            position: absolute;
+            border-bottom: 1px solid #c9d0d6;
+            height: 58px;
+            float: left;
+        }
+
+        .homenav__tabs {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            background: transparent;
+            box-shadow: none !important;
+            margin: 0 auto;
+            border: none;
+            padding: 19px 0;
+            list-style: none;
+        }
+
+        .active {
+            width: 25%;
+            text-align: center;
+            padding: 0 !important;
+        }
+
+        .active>a {
+            padding: 0 0 18px !important;
+            border-bottom: 3px solid #ff0000 !important;
+            color: #555 !important;
+            border-top: none !important;
+            float: none !important;
+            display: inline;
+            border-left: none;
+            border-right: none;
+            display: inline !important;
+            text-transform: uppercase;
+            font-size: 14px !important;
+            margin: 0;
+            line-height: 0;
+            outline: 0 !important;
+            border-radius: 4px 4px 0 0;
+            position: relative;
+            text-decoration: none !important;
+        }
+
+        .homenav__tabs>li {
+            text-align: center;
+            padding: 0 !important;
+            outline: 0;
+            position: relative;
+            display: block;
+            list-style: none;
+            font-size: 12px;
+            line-height: 1.42857143;
+            color: #333;
+        }
+
+        .homenav__tabs>li:not(:first-child) {
+            width: 25%;
+            text-align: center;
+            padding: 0 !important;
+            outline: 0;
+            float: left;
+            margin-bottom: -1px;
+            position: relative;
+            display: block;
+            list-style: none;
+            font-size: 12px;
+            line-height: 1.42857143;
+            color: #333;
+        }
+
+        .homenav__tabs>li:not(:last-child) {
+            margin-right: -57px;
+
+        }
+
+        .homenav__tabs>li:not(:first-child)>a {
+            font-weight: 700;
+            display: inline !important;
+            text-transform: uppercase;
+            color: #666;
+            font-size: 14px !important;
+            margin: 0;
+            padding: 0;
+            line-height: 0;
+            border: none;
+            outline: 0 !important;
+            border-radius: 4px 4px 0 0;
+            position: relative;
+            cursor: pointer;
+            text-decoration: none !important;
+            background-color: transparent;
+            text-align: center;
+            list-style: none;
+        }
+
+        .homenav__tabs__img {
+            padding: 0;
+            border-radius: 3px;
+            color: #fff;
+            font-size: 14px;
+            margin: 0;
+            text-transform: capitalize;
+            position: absolute;
+            left: -33px;
+            top: 0px;
+            font-weight: 700;
+            line-height: 0;
+            cursor: pointer !important;
+        }
+
+        .dealscontainer {
+            margin: 20px 0 0;
+            width: 1240px;
+            height: 987px;
+            display: inline-block;
+            font-size: 12px;
+            line-height: 1.42857143;
+            color: #333;
+            background-color: red;
+            margin-right: -7px;
+            margin-left: -7px;
+            padding-left: 7px;
+            padding-right: 7px;
+
+        }
+
+        .loadmorevdealsbtn {
+            padding: 0;
+            height: 55.422px;
+            margin: 20px 0 40px;
+            width: 100% !important;
+            text-align: center;
+            display: inline-block;
+            line-height: 1.42857143;
+            color: #333;
+            font-size: 12px;
+        }
+
+        .loadmore {
+            margin-top: 10px;
+            background: #f27935 !important;
+            border: none !Important;
+            padding: 12px 116px !important;
+            color: #fff !important;
+            text-transform: uppercase;
+            font-size: 15px;
+            border-radius: 3px !important;
+            margin: 0;
+            line-height: inherit;
+            cursor: pointer;
+
+        }
+
+        .topcashbacks {
+            margin-bottom: 30px;
+            background: #677988;
+            float: left;
+            width: 100%;
+            height: 641.078px;
+            display: block;
+            padding: 40px 0 !important;
+            font-size: 12px;
+            line-height: 1.42857143;
+            color: #333;
+        }
+
+        .cashback__container {
+            position: relative;
+            width: 1240px;
+            display: block !important;
+            float: none !important;
+            margin-left: auto !important;
+            margin-right: auto !important;
+            clear: both !important;
+            font-size: 12px;
+        }
+
+        .cashback__container__h2 {
+            margin: 0 0 15px !important;
+            padding: 0px 40px 6px !important;
+            background-position: 0 0;
+            color: #fff;
+            font-weight: 600;
+            font-size: 24px;
+            letter-spacing: -1px;
+            background: url(https://freekaamaal.com/images/common-images/cashback-store-ico.png)no-repeat;
+            line-height: 1.1;
+            margin-block-start: 0.83em;
+            margin-block-end: 0.83em;
+            margin-inline-start: 0px;
+            margin-inline-end: 0px;
+        }
+
+        .cashback__container__viewall {
+            display: block;
+            float: right;
+            margin: -38px 0 0;
+            font-weight: 600;
+            color: #fff;
+            font-size: 14px;
+            cursor: pointer !important;
+            text-decoration: none !important;
+            background-color: transparent;
+            outline: 0 !important;
+        }
+
+        .cashback__container__viewall:hover {
+            color: #f27935 !important;
+        }
+
+        .topcashbacks__deals {
+            padding: 0 !important;
+
+            width: 104% !important;
+            font-size: 12px;
+            display: inline-block;
+            line-height: 1.42857143;
+            color: #333;
+            height: 477.688px;
+            list-style-type: none !important;
+        }
+
+        .topcashbacks__deals>ul {
+            list-style: none;
+            margin-block-start: 1em;
+            margin-block-end: 1em;
+            margin-inline-start: 0px;
+            margin-inline-end: 0px;
+            padding-inline-start: 40px;
+            display: block;
+            font-size: 12px;
+            line-height: 1.42857143;
+            color: #333;
+        }
+
+        .topcashbacks__deals>ul>li {
+            float: left !important;
+            width: 188px !important;
+            list-style: none;
+            margin: 0 18px 22px 0 !important;
+            background-image: none !important;
+            padding: 1px !important;
+            border-radius: 10px;
+            display: list-item;
+            text-align: inherit;
+            list-style: none;
+            font-size: 12px;
+            line-height: 1.42857143;
+            color: #333;
+
+        }
+
+        .topcashbacks__deals>ul>li:hover {
+            box-shadow: 2px 2px 6px 2px #504545;
+        }
+
+        .cashback__deals {
+            width: 100%;
+            box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.15) !important;
+            float: left;
+            background: #fff;
+            border-radius: 10px;
+            display: block;
+            list-style: none;
+            text-align: inherit;
+            font-size: 12px;
+            line-height: 1.42857143;
+            color: #333;
+            height: 104px;
+        }
+
+        .cashback__deals>a {
+            float: left;
+            width: 100%;
+            text-align: center;
+            padding: 22px 15px 5px;
+            text-decoration: none !important;
+            cursor: pointer !important;
+            color: #337ab7;
+            background-color: transparent;
+            outline: 0 !important;
+            list-style: none;
+        }
+
+        .cashback__deals>span {
+            width: 100%;
+            text-align: center;
+            margin: 7px 0 10px;
+            font-weight: bold;
+            color: #ed145b;
+            font-size: 15px;
+            display: inline-block;
+            max-width: 100%;
+            position: relative;
+            cursor: default;
+        }
+
+        .referbanner {
+            font-size: 28px;
+            color: #333;
+            font-weight: 600;
+            text-align: center;
+            margin-bottom: 25px;
+            margin-top: 10px;
+            line-height: 1.1;
+            display: block;
+            margin-block-start: 1.33em;
+            margin-block-end: 1.33em;
+            margin-inline-start: 0px;
+            margin-inline-end: 0px;
+        }
+
+
+
+        .freekamaalreferal>a {
+            width: 1240px;
+            height: 351.328px;
+            display: inline-block;
+            cursor: pointer !important;
+            text-decoration: none !important;
+            color: #337ab7;
+            font-size: 12px;
+            line-height: 1.42857143;
+            outline: 0 !important;
+            background-color: transparent;
+            margin-left: 60px;
+        }
+
+        .freekamaalreferal>a>img {
+            width: 100%;
+            height: auto;
+            border-radius: 4px;
+            vertical-align: middle;
+
+        }
+
+        .featured__categories {
+            width: 1270px;
+            float: left;
+            height: 323.516px;
+            margin-left: 49px;
+
+        }
+
+        .featured__category__tagline {
+            background: url(https://freekaamaal.com/images/common-images/fe-cat-ico.png)no-repeat;
+            padding: 1px 34px 5px;
+            background-position: 0px 4px;
+            font-size: 24px;
+            font-weight: 600;
+            margin: 20px 13px;
+            letter-spacing: -1px;
+        }
+
+        .featured__categories__containers {
+            width: 100% !important;
+            display: inline-block;
+
+        }
+
+        .featured__categories__containers>ul {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            float: left;
+            display: block;
+            list-style-type: disc;
+            margin-block-start: 1em;
+            margin-block-end: 1em;
+            margin-inline-start: 0px;
+            margin-inline-end: 0px;
+            padding-inline-start: 40px;
+            font-size: 12px;
+
+        }
+
+        .featured__categories__containers>ul>li {
+            width: 169.766px;
+            margin: 0px 23px 15px 0px !important;
+            float: left;
+            list-style-type: none;
+            background: #fff;
+            margin: 0px 22px 15px 0px;
+            border: 1px solid #dadada;
+            border-radius: 6px;
+            padding: 10px;
+            line-height: 1.42857143;
+            color: #333;
+
+        }
+
+        .featured__categories__containers>ul>li>a {
+            width: 100%;
+            float: left;
+            text-align: center;
+            cursor: pointer !important;
+            text-decoration: none !important;
+            color: #337ab7;
+            background-color: transparent;
+            outline: 0 !important;
+
+        }
+
+        .featured__categories__containers>ul>li>a>img {
+            width: 60px;
+            vertical-align: middle;
+            border: 0;
+
+        }
+
+        .featured__categories__containers>ul>li>a>span {
+            width: 100%;
+            font-size: 13px;
+            color: #000;
+            margin: 10px 0 0 !important;
+            font-weight: 400;
+            display: inline-block;
+            max-width: 100%;
+        }
+
+        .featured__categories__containers>ul>li:hover {
+            box-shadow: 2px 2px 6px 2px #a19d9d;
+        }
+
+        .subscription {
+            padding-left: 15px !important;
+            padding-right: 15px !important;
+            width: 1210px;
+            height: 126.359px;
+            border-radius: 3px;
+            padding: 25px 0px 10px;
+            position: absolute;
+            z-index: 99;
+            left: 0;
+            right: 0;
+            background: url(https://freekaamaal.com/images/common-images/subscriber-image.jpg) #fff no-repeat;
+            background-position: top right;
+            box-shadow: 0 2px 7px 0 rgba(0, 0, 0, 0.09);
+            top: -73px;
+            background-size: 200px;
+            display: inline-block;
+        }
+
+        .subscription__text {
+            padding-left: 15px !important;
+            padding-right: 15px !important;
+            width: 33.33333333% !important;
+            float: left;
+            font-size: 12px;
+            line-height: 1.42857143;
+            color: #333;
+        }
+
+        .subscription__text>h2 {
+            margin: 0 15px;
+            padding: 0;
+            font-size: 37px;
+            color: #f27935;
+            font-size: 39px;
+            font-weight: bold;
+            line-height: 1.1;
+        }
+
+        .subscription__text>h3 {
+            font-weight: normal;
+            font-size: 12px;
+            color: #666;
+            margin: 5px 0px 0 16px;
+            line-height: 1.1;
+        }
+
+        .subscription--input>form>span:nth-child(2) {
+            width: 24px;
+            min-width: 24px;
+            height: 24px;
+            background-image: url(&quot;chrome-extension://fooolghllnmhmmndgjiamiiodkpenpbb/assets/manifestIcons/icon.svg&quot;);
+            background-repeat: no-repeat;
+            background-position: left center;
+            background-size: auto;
+            border: none;
+            display: inline-block;
+            visibility: visible;
+            position: absolute;
+            cursor: pointer;
+            z-index: 998;
+            padding: 0px;
+            transition: none 0s ease 0s;
+            pointer-events: all;
+            right: 0px;
+            left: 396.766px;
+            top: 8.5px;
+            min-height: 24px;
+        }
+
+        .subcription--input {
+            padding-left: 15px !important;
+            padding-right: 15px !important;
+            width: 58.33333333% !important;
+            float: left;
+            position: relative;
+        }
+
+        form {
+            display: block;
+            margin-top: 0em;
+            font-size: 12px;
+            line-height: 1.42857143;
+            color: #333;
+        }
+
+        .subcription--input input[type=email] {
+            width: 63% !important;
+            float: left;
+            outline: 0;
+            padding: 9px 0;
+            border: 0;
+            border-bottom: 1px solid #ececec;
+            font-size: 16px;
+            margin: 0 11px 0 0;
+            line-height: inherit;
+            color: inherit;
+            writing-mode: horizontal-tb !important;
+        }
+
+        .subcription--input span {
+            position: absolute;
+            width: 90px;
+            height: 2px;
+            left: 16px;
+            z-index: 9999;
+            background: #f27935;
+            top: 39px;
+            font-size: 12px;
+        }
+
+
+        .subcription--input input[type=submit] {
+            border: none;
+            background: #f27935;
+            padding: 10px 35px;
+            color: #fff;
+            font-size: 14px;
+            font-weight: 500;
+            transition: all .5s ease;
+            cursor: pointer;
+            border-radius: 3px;
+            line-height: inherit;
+        }
+
+        .subscription__container {
+            width: 1210px;
+            height: 126.359px;
+            padding-left: 15px !important;
+            padding-right: 15px !important;
+        }
+
+        .subscription__container {
+            position: relative;
+            width: 1240px;
+            display: block !important;
+            float: none !important;
+            margin-left: auto !important;
+            margin-right: auto !important;
+            clear: both !important;
+
+        }
+
+        .subscription__container>section {
+            border-radius: 3px;
+            padding: 25px 0px 10px;
+            position: absolute;
+            z-index: 99;
+            left: 0;
+            right: 0;
+            background: url(https://freekaamaal.com/images/common-images/subscriber-image.jpg) #fff no-repeat;
+            background-position: top right;
+            box-shadow: 0 2px 7px 0 rgba(0, 0, 0, 0.09);
+            top: -73px;
+            background-size: 200px;
+        }
+
+        .subcription__desc {
+            padding-left: 15px !important;
+            padding-right: 15px !important;
+            width: 100% !important;
+            float: left;
+
+        }
+
+        .subcription__desc>p:nth-child(1) {
+            margin: 0 17px;
+            width: 819px;
+            color: #666;
+            margin-top: 15px;
+
+        }
+
+        .subcription__desc>p:nth-child(2) {
+            position: absolute;
+            top: -18px;
+            margin-left: 53px;
+            color: #ff0000;
+            font-size: 12px;
+            display: block;
+            left: 697px;
+            font-family: DINPRO !important;
+        }
+
+        .footer {
+            background: #f27935;
+            float: left;
+            width: 100%;
+            margin: 130px 0 0;
+            height: 3725.31px;
+        }
+
+        .footer1 {
+            position: relative;
+            width: 1240px;
+            display: block !important;
+            float: none !important;
+            margin-left: auto !important;
+            margin-right: auto !important;
+            clear: both !important;
+            height: 700px;
+        }
+
+        .footer2 {
+            width: 100% !important;
+            float: left;
+            display: inline-block;
+            background: #333;
+            margin: 365px 0 0;
+            height: 2662.33px;
+        }
+
+        .achievements {
+            width: 100% !important;
+            float: left;
+            margin: -23px 0 0;
+            background: rgba(255, 255, 255, 0.11);
+            padding: 10px 0px 13px;
+            box-shadow: 0 2px 7px 0 rgba(0, 0, 0, 0.09);
+        }
+
+        .achievements>ul {
+            font-size: 12px;
+        }
+
+        .achievements>ul>li {
+            float: left;
+            width: 20%;
+            list-style-type: none;
+            text-align: center;
+            padding: 0 29px;
+            display: list-item;
+        }
+
+        .achievements__image {
+            vertical-align: middle;
+        }
+
+        .achievements>ul>li>span:not(:last-child) {
+            width: 100%;
+            text-align: center;
+            color: #fff;
+            margin: 0 !important;
+            font-size: 18px;
+            font-weight: bold;
+            display: inline-block;
+            max-width: 100%;
+        }
+
+        .achievements>ul>li>:nth-child(3) {
+            color: #fff;
+            font-size: 14px;
+
+        }
+
+        .info {
+            width: 100% !important;
+            float: left;
+        }
+
+        .info__row {
+            margin: 24px 0 0;
+            padding: 0 0 5px;
+            float: left;
+            width: 100%;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.35);
+            font-size: 16px;
+        }
+
+        .info__row>li {
+            float: left;
+            width: 16.7%;
+            list-style-type: none;
+            color: #fff;
+            font-weight: bold;
+            padding: 0 35px;
+            font-size: 17px;
+            font-weight: bold;
+        }
+
+        /* .about__column {
+            padding-left: 15px !important;
+            padding-right: 15px !important;
+            width: 176.656px !important;
+            height: 248px;
+            float: left;
+        }
+
+        .about__column>ul {
+            margin: 20px 0;
+            padding: 0 !important;
+            color: #333;
+        }
+
+        .about__column>ul>li {
+            list-style-type: none;
+            padding: 0 0px 0 22px !important;
+            display: list-item;
+            text-decoration: none;
+        }
+
+        .about__column>ul>li>a {
+            color: #fff;
+            float: left;
+            padding: 3px 0px;
+            width: 100%;
+            cursor: pointer !important;
+            text-decoration: none !important;
+        } */
+        .info:not(:first-child)>section {
+            float: left;
+            padding-left: 15px !important;
+            padding-right: 15px !important;
+            width: 176.656px !important;
+            height: 248px;
+            float: left;
+        }
+
+        .info:not(:first-child)>section>ul {
+            margin-top: 25px;
+        }
+
+        .info:not(:first-child)>section:not(:last-child) {
+            margin-right: 27px;
+        }
+
+        .info:not(:first-child)>section>ul>li {
+            list-style-type: none;
+            padding: 0 0px 0 22px !important;
+            display: list-item;
+            text-decoration: none;
+            margin-bottom: 20px;
+        }
+
+        .info:not(:first-child)>section>ul>li>a {
+            color: #fff;
+            margin-bottom: 1px;
+            padding: 3px 0px;
+            width: 100%;
+            cursor: pointer !important;
+            text-decoration: none !important;
+        }
+
+        .footer2 {
+            padding-left: 15px !important;
+            padding-right: 15px !important;
+
+        }
+
+        .footer2__heading {
+            padding: 0;
+            width: 33.33333333% !important;
+            float: left;
+        }
+
+        .footer2__content {
+            width: 100% !important;
+            float: left;
+            font-size: 12px;
+        }
+
+        .footer2__rights {
+            background: rgba(255, 255, 255, 0.23);
+            padding: 10px;
+            border-radius: 3px;
+            margin: 2500px -2px;
+            width: 100%;
+        }
+
+        .waste-heading {
+            color: #fff;
+            font-size: 36px;
+            margin: 20px 0 0;
+            padding: 0;
+            font-weight: 900;
+            line-height: 1.1;
+        }
+
+        .footer2__heading>label {
+            font-weight: normal;
+            margin: 0;
+            padding: 0;
+            color: #fff;
+            font-size: 18px;
+            display: inline-block;
+            max-width: 100%;
+            position: relative;
+            cursor: default;
+        }
+
+        .footer2__content>h2 {
+            font-size: 16px;
+            color: #fff;
+            font-weight: 600;
+            margin-bottom: 25px;
+            margin-top: 20px;
+            line-height: 1.1;
+        }
+
+        .footer2__content>p {
+            font-size: 13px;
+            color: #fff;
+            text-align: justify;
+            margin: 0 0 10px;
+        }
+
+        .footer2__content>h3 {
+            font-size: 15px;
+            color: #fff;
+            font-weight: 600;
+            margin-bottom: 25px;
+            margin-top: 20px;
+            line-height: 1.1;
+        }
+
+        .footer2__rights>p {
+            color: rgba(255, 255, 255, 0.60) !important;
+            text-align: center;
+            font-size: 12px;
+            margin: 0 0 10px;
+        }
+
+        .footer2__rights>p>a {
+            cursor: pointer !important;
+            text-decoration: none !important;
+            color: #337ab7;
+            background-color: transparent;
+            outline: 0 !important;
+        }
+
+        .container__top__image>a>img {
+            width: 818px;
+            margin-right: 0px;
+            float: left;
+            display: block;
+        }
+
+        .container__top__sidepanel__heading {
+            border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+            margin: 0 0 15px;
+            position: relative;
+            width: 100% !important;
+            float: left;
+            font-size: 12px;
+        }
+
+        .container-top-sidepanel-dot {
+            margin: 11px 5px;
+            position: absolute;
+
+        }
+
+        .pulse {
+            width: 10px;
+            height: 10px;
+            border: 5px solid #14bf14;
+            -webkit-border-radius: 30px;
+            -moz-border-radius: 30px;
+            border-radius: 30px;
+            background-color: green;
+            z-index: 10;
+            position: absolute;
+            top: 12px;
+            left: 11px;
+            padding: 4px;
+        }
+
+        .container__top__sidepanel__heading>h2 {
+            margin: 0;
+            padding: 12px 23px;
+            float: left;
+            font-size: 16px;
+            font-weight: 700;
+            position: relative;
+            text-transform: capitalize;
+            left: 15px;
+        }
+
+        .sidepanel__list {
+            float: left;
+            width: 100%;
+            margin: 0 0 15px;
+            padding: 0;
+            max-height: 228px;
+            overflow: hidden;
+            overflow-y: scroll;
+        }
+
+        .head__section__left {
+            width: 50% !important;
+            display: inline-block;
+            float: left;
+        }
+
+        .head__section__right {
+            float: right;
+            width: 50% !important;
+            display: inline-block;
+        }
+
+        .head__section__right>ul {
+            padding: 0;
+            position: absolute;
+            margin: 9px 0 0 !important;
+            right: 2px;
+        }
+
+        .head__section__right>ul>li {
+            display: inline-block;
+            padding: 0 15px 0 15px !important;
+            position: relative;
+
+        }
+
+        .head__section__right>ul>li>a {
+            color: #fff;
+            display: inline-block;
+            font-weight: 600;
+            font-size: 12px;
+            cursor: pointer !important;
+            text-decoration: none !important;
+            background-color: transparent;
+            outline: 0 !important;
+        }
+
+        .head__section__right>ul>li>a>img {
+            width: 16px;
+            border: 0;
+            margin-right: 4px;
+        }
+
+        .head__section__right>ul>span>img {
+            width: 48px !important;
+            position: absolute;
+            left: -19px;
+            top: -2px;
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <section class="header">
+            <section class="head__section">
+                <section class="head__section--css">
+                    <section class="head__section__left"></section>
+                    <section class="head__section__right">
+                        <ul>
+                            <span><img src="https://images.freekaamaal.com/common-images/new-cashabck.gif"
+                                    alt=""></span>
+                            <li><a href="#"> Advertise with Us.</a></li>
+                            <li><a href="#"><img
+                                        src="https://images.freekaamaal.com/common-images/fkm-cashback-ico.png">100%
+                                    Cashback</a></li>
+                        </ul>
+                    </section>
+                </section>
+            </section>
+            <section class="head__topmenu"></section>
+        </section>
+        <section class="main">
+            <section class="container__top">
+                <section class="container__top__image"><a href="#"> <img
+                            src="https://images.freekaamaal.com/home-slider/site/desktop_biba_deesktopjpg.webp"> </a>
+                </section>
+                <section class="container__top__sidepanel">
+                    <section class="container__top__sidepanel__heading">
+                        <div id="container-top-sidepanel-dot">
+                            <div class="dot"></div>
+                            <div class="pulse"></div>
+                        </div>
+                        <h2>Live Deals</h2>
+                    </section>
+                    <ul class="sidepanel__list">
+
+                    </ul>
+                </section>
+            </section>
+
+            <section class="intro__box">
+                <h1>Best Online Deals, Free Stuff and Top Cashback Offers</h1>
+                <span class="intro__box__line"></span>
+            </section>
+
+            <section class="dealoftheday">
+                <h2><img src="https://freekaamaal.com/images/common-images/cashback-deal-ico.png" alt=""> Deal Of The
+                    Day
+                </h2>
+                <ul>
+                    <li><a href="#" target="_blank"> <img
+                                src="https://images.freekaamaal.com/sticky/croma_stickypng.webp"
+                                alt="croma_stickypng.webp"></a>
+                    </li>
+                    <li><a href="#" target="_blank"> <img
+                                src="https://images.freekaamaal.com/sticky/croma_stickypng.webp"
+                                alt="croma_stickypng.webp"></a>
+                    </li>
+                    <li><a href="#" target="_blank"> <img
+                                src="https://images.freekaamaal.com/sticky/croma_stickypng.webp"
+                                alt="croma_stickypng.webp"></a>
+                    </li>
+                    <li><a href="#" target="_blank"> <img
+                                src="https://images.freekaamaal.com/sticky/croma_stickypng.webp"
+                                alt="croma_stickypng.webp"></a>
+                    </li>
+                </ul>
+            </section>
+
+            <section class="featureddeals">
+                <h2>Featured Deals</h2>
+                <section class="featureddeals__list">
+                    <ul>
+                        <li><a href="#" target="_blank">
+                                <div class="featureddeals__list__div">
+                                    <p><span><img alt="Coconut Water Premix Powder (30 Sachets) At Just Rs.13 Each"
+                                                src="https://images.freekaamaal.com/featured_images/small_192492_H.png"></span>
+                                        <span class="featureddeals__list--price"> <del><i>₹</i> 600</del>
+                                            <label><i>₹</i> 384</label></span>
+                                    </p>
+                                    <p>Coconut Water Premix Powder (30 Sachets) At Just Rs.13
+                                        Each</p>
+                                </div>
+                            </a></li>
+                        <li><a href="#" target="_blank">
+                                <div class="featureddeals__list__div">
+                                    <p><span><img alt="Coconut Water Premix Powder (30 Sachets) At Just Rs.13 Each"
+                                                src="https://images.freekaamaal.com/featured_images/small_192492_H.png"></span>
+                                        <span class="featureddeals__list--price"> <del><i>₹</i> 600</del>
+                                            <label><i>₹</i> 384</label></span>
+                                    </p>
+                                    <p>Coconut Water Premix Powder (30 Sachets) At Just Rs.13
+                                        Each</p>
+                                </div>
+                            </a></li>
+                        <li><a href="#" target="_blank">
+                                <div class="featureddeals__list__div">
+                                    <p><span><img alt="Coconut Water Premix Powder (30 Sachets) At Just Rs.13 Each"
+                                                src="https://images.freekaamaal.com/featured_images/small_192492_H.png"></span>
+                                        <span class="featureddeals__list--price"> <del><i>₹</i> 600</del>
+                                            <label><i>₹</i> 384</label></span>
+                                    </p>
+                                    <p>Coconut Water Premix Powder (30 Sachets) At Just Rs.13
+                                        Each</p>
+                                </div>
+                            </a></li>
+                        <li><a href="#" target="_blank">
+                                <div class="featureddeals__list__div">
+                                    <p><span><img alt="Coconut Water Premix Powder (30 Sachets) At Just Rs.13 Each"
+                                                src="https://images.freekaamaal.com/featured_images/small_192492_H.png"></span>
+                                        <span class="featureddeals__list--price"> <del><i>₹</i> 600</del>
+                                            <label><i>₹</i> 384</label></span>
+                                    </p>
+                                    <p>Coconut Water Premix Powder (30 Sachets) At Just Rs.13
+                                        Each</p>
+                                </div>
+                            </a></li>
+                        <li><a href="#" target="_blank">
+                                <div class="featureddeals__list__div">
+                                    <p><span><img alt="Coconut Water Premix Powder (30 Sachets) At Just Rs.13 Each"
+                                                src="https://images.freekaamaal.com/featured_images/small_192492_H.png"></span>
+                                        <span class="featureddeals__list--price"> <del><i>₹</i> 600</del>
+                                            <label><i>₹</i> 384</label></span>
+                                    </p>
+                                    <p>Coconut Water Premix Powder (30 Sachets) At Just Rs.13
+                                        Each</p>
+                                </div>
+                            </a></li>
+
+                    </ul>
+                </section>
+            </section>
+
+            <section class="homenav">
+                <section class="homenav__inner">
+                    <ul class="homenav__tabs">
+                        <li class="active"><a href="#">Hot Deals</a></li>
+                        <li><a href="#"> <span class="homenav__tabs__img"> <img
+                                        src="https://images.freekaamaal.com/common-images/new-cashabck.gif"
+                                        style="width: 60px;margin: -4px -11px;"> </span>100% Cashback </a></li>
+                        <li><a href="#">Trending Deals</a></li>
+                        <li><a href="#">Coupons</a></li>
+                    </ul>
+                </section>
+            </section>
+
+            <section class="dealscontainer">
+            </section>
+
+            <section class="loadmorevdealsbtn">
+                <input type="button" class="loadmore" value="Load More">
+            </section>
+
+            <section class="topcashbacks">
+                <section class="cashback__container">
+                    <h2 class="cashback__container__h2">Top Cashback Stores</h2>
+                    <a href="#" class="cashback__container__viewall">View All</a>
+                    <section class="topcashbacks__deals">
+                        <ul>
+                            <li>
+                                <div class="cashback__deals"> <a href="#"><img alt="swiggy"
+                                            src="https://images.freekaamaal.com/store-images/238.jpg"></a>
+                                    <span><i>₹</i>15 <span>Cashback</span></span>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="cashback__deals"> <a href="#"><img alt="makemytrip"
+                                            src="https://images.freekaamaal.com/store-images/78.jpg"></a>
+                                    <span><i>₹</i>90 <span>Cashback</span></span>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="cashback__deals"> <a href="#"><img alt="nykaa"
+                                            src="https://images.freekaamaal.com/store-images/88.jpg"></a> <span>7
+                                        %<span>Cashback</span></span> </div>
+                            </li>
+                            <li>
+                                <div class="cashback__deals"> <a href="#"><img alt="beardo"
+                                            src="https://images.freekaamaal.com/store-images/3013.jpg"></a> <span>15
+                                        %<span>Cashback</span></span> </div>
+                            </li>
+                            <li>
+                                <div class="cashback__deals"> <a href="#"><img alt="samsung"
+                                            src="https://images.freekaamaal.com/store-images/1920.jpg"></a> <span>2
+                                        %<span>Cashback</span></span> </div>
+                            </li>
+                            <li>
+                                <div class="cashback__deals"> <a href="#"><img alt="flipkart"
+                                            src="https://images.freekaamaal.com/store-images/2.jpg"></a>
+                                    <span>10 %<span>Cashback</span></span>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="cashback__deals"> <a href="#"><img alt="fossil"
+                                            src="https://images.freekaamaal.com/store-images/3519.jpg"></a> <span>20
+                                        %<span>Cashback</span></span> </div>
+                            </li>
+                            <li>
+                                <div class="cashback__deals"> <a href="#"><img alt="xyxxcrew"
+                                            src="https://images.freekaamaal.com/store-images/3758.jpg"></a> <span>40
+                                        %<span>Cashback</span></span> </div>
+                            </li>
+                            <li>
+                                <div class="cashback__deals"> <a href="#"><img alt="peesafe"
+                                            src="https://images.freekaamaal.com/store-images/3788.jpg"></a> <span>35
+                                        %<span>Cashback</span></span> </div>
+                            </li>
+                            <li>
+                                <div class="cashback__deals"> <a href="#"><img alt="levis"
+                                            src="https://images.freekaamaal.com/store-images/4005.jpg"></a> <span>12
+                                        %<span>Cashback</span></span> </div>
+                            </li>
+                            <li>
+                                <div class="cashback__deals"> <a href="#"><img alt="woodlandworldwide"
+                                            src="https://images.freekaamaal.com/store-images/662.jpg"></a> <span>25
+                                        %<span>Cashback</span></span> </div>
+                            </li>
+                            <li>
+                                <div class="cashback__deals"> <a href="#"><img alt="hongskitchen"
+                                            src="https://images.freekaamaal.com/store-images/4056.jpg"></a>
+                                    <span><i>₹</i>300 <span>Cashback</span></span>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="cashback__deals"> <a href="#"><img alt="cultsport"
+                                            src="https://images.freekaamaal.com/store-images/4333.jpg"></a>
+                                    <span><i>₹</i>350 <span>Cashback</span></span>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="cashback__deals"> <a href="#"><img alt="thetinylane"
+                                            src="https://images.freekaamaal.com/store-images/4371.jpg"></a> <span>70
+                                        %<span>Cashback</span></span> </div>
+                            </li>
+                            <li>
+                                <div class="cashback__deals"> <a href="#"><img alt="truhairandskin"
+                                            src="https://images.freekaamaal.com/store-images/4395.jpg"></a>
+                                    <span><i>₹</i>400 <span>Cashback</span></span>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="cashback__deals"> <a href="#"><img alt="benetton"
+                                            src="https://images.freekaamaal.com/store-images/4399.jpg"></a> <span>20
+                                        %<span>Cashback</span></span> </div>
+                            </li>
+                            <li>
+                                <div class="cashback__deals"> <a href="#"><img alt="cadbury"
+                                            src="https://images.freekaamaal.com/store-images/4401.jpg"></a> <span>40
+                                        %<span>Cashback</span></span> </div>
+                            </li>
+                            <li>
+                                <div class="cashback__deals"> <a href="#"><img alt="nilkamal"
+                                            src="https://images.freekaamaal.com/store-images/4405.jpg"></a> <span>12
+                                        %<span>Cashback</span></span> </div>
+                            </li>
+                            <li>
+                                <div class="cashback__deals"> <a href="#"><img alt="puma"
+                                            src="https://images.freekaamaal.com/store-images/483.jpg"></a> <span>7
+                                        %<span>Cashback</span></span> </div>
+                            </li>
+                            <li>
+                                <div class="cashback__deals"> <a href="#"><img alt="earthrhythm"
+                                            src="https://images.freekaamaal.com/store-images/4413.jpg"></a> <span>65
+                                        %<span>Cashback</span></span> </div>
+                            </li>
+                            <li>
+                                <div class="cashback__deals"> <a href="#"><img alt="supertailsexclusive"
+                                            src="https://images.freekaamaal.com/store-images/4470.jpg"></a> <span>100
+                                        %<span>Cashback</span></span> </div>
+                            </li>
+                            <li>
+                                <div class="cashback__deals"> <a href="#"><img alt="sonahealth"
+                                            src="https://images.freekaamaal.com/store-images/4472.jpg"></a> <span>55
+                                        %<span>Cashback</span></span> </div>
+                            </li>
+                            <li>
+                                <div class="cashback__deals"> <a href="#"><img alt="aromamagic"
+                                            src="https://images.freekaamaal.com/store-images/4473.jpg"></a> <span>45
+                                        %<span>Cashback</span></span> </div>
+                            </li>
+                        </ul>
+                    </section>
+                </section>
+            </section>
+
+            <section class="referbanner">
+                <h4>Refer Friends & Earn Lifetime</h4>
+            </section>
+
+            <section class="freekamaalreferal">
+                <a href="#"><img src="https://images.freekaamaal.com/common-images/referbanner15-3-2022.jpg" alt=""></a>
+            </section>
+
+            <section class="featured__categories">
+                <h2 class="featured__category__tagline">Featured Categories</h2>
+                <section class="featured__categories__containers">
+                    <ul>
+                        <li><a href="#"><img src="https://images.freekaamaal.com/category-images/12.jpg"
+                                    alt="beauty and  personal care">
+                                <span>Beauty & Personal Care</span></a>
+                        </li>
+                        <li><a href="#"><img src="https://images.freekaamaal.com/category-images/14.jpg"
+                                    alt="beauty and  personal care">
+                                <span>Electronics & Appliances</span></a>
+                        </li>
+                        <li><a href="#"><img src="https://images.freekaamaal.com/category-images/15.jpg"
+                                    alt="beauty and  personal care">
+                                <span>Travel</span></a>
+                        </li>
+                        <li><a href="#"><img src="https://images.freekaamaal.com/category-images/17.jpg"
+                                    alt="beauty and  personal care">
+                                <span> Food & Grocery</span></a>
+                        </li>
+                        <li><a href="#"><img src="https://images.freekaamaal.com/category-images/25.jpg"
+                                    alt="beauty and  personal care">
+                                <span> Baby Care</span></a>
+                        </li>
+                        <li><a href="#"><img src="https://images.freekaamaal.com/category-images/27.jpg"
+                                    alt="beauty and  personal care">
+                                <span> Home Decor & Furnishing</span></a>
+                        </li>
+                        <li><a href="#"><img src="https://images.freekaamaal.com/category-images/33.jpg"
+                                    alt="beauty and  personal care">
+                                <span>Freebies</span></a>
+                        </li>
+                        <li><a href="#"><img src="https://images.freekaamaal.com/category-images/35.jpg"
+                                    alt="beauty and  personal care">
+                                <span> Miscellaneous</span></a>
+                        </li>
+                        <li><a href="#"><img src="https://images.freekaamaal.com/category-images/37.jpg"
+                                    alt="beauty and  personal care">
+                                <span> Hosting & Software</span></a>
+                        </li>
+                        <li><a href="#"><img src="https://images.freekaamaal.com/category-images/39.jpg"
+                                    alt="beauty and  personal care">
+                                <span> Banking & Insurance</span></a>
+                        </li>
+                        <li><a href="#"><img src="https://images.freekaamaal.com/category-images/41.jpg"
+                                    alt="beauty and  personal care">
+                                <span> Earn Extra Money</span></a>
+                        </li>
+                        <li><a href="#"><img src="https://images.freekaamaal.com/category-images/29.jpg"
+                                    alt="beauty and  personal care">
+                                <span>Pet Care</span></a>
+                        </li>
+                    </ul>
+                </section>
+            </section>
+            <section class="footer">
+                <section class="footer1">
+                    <section class="subscription__container">
+                        <section>
+                            <section class="subscription__text">
+                                <h2>Subscribe Now</h2>
+                                <h3>Get Best Deals On Internet Deliverd Right In Your Inbox</h3>
+                            </section>
+                            <div class="subcription--input">
+                                <form> <input type="email" id="subinput"
+                                        placeholder="Enter Your Email Id"><span></span><input type="submit"
+                                        value="Subscribe" id="subbtn"> <span></span>
+                                </form>
+                            </div>
+                            <div class="subcription__desc">
+                                <p>We value your privacy & assure you that there will be no spams from us in your inbox.
+                                    By
+                                    Subscribing with us, you will receive only 1 mail per day. Subscribe now & never
+                                    miss an
+                                    offer again.</p>
+                                <p class="dealsuberror txt-12"
+                                    style="position: absolute;top: -18px;margin-left: 53px;color: #ff0000;"></p>
+                            </div>
+                        </section>
+
+                    </section>
+                    <section class="achievements">
+                        <ul>
+                            <li>
+                                <p class="text-center"><img
+                                        src="https://freekaamaal.com/images/common-images/fkm-newsletter.png"></p>
+                                <span>Newsletter</span>
+                                <span>5,00,000 People who have already subscribed special newsletter</span>
+                            </li>
+                            <li>
+                                <p class="text-center"><img
+                                        src="https://freekaamaal.com/images/common-images/page-view.png"></p>
+                                <span>Page View</span> <span>80 millions Page views we receive every year</span>
+                            </li>
+                            <li>
+                                <p class="text-center"><img
+                                        src="https://freekaamaal.com/images/common-images/fkm-ranking.png"></p>
+                                <span>Ranking</span> <span>Top 200+ We are among top 200 sites in india</span>
+                            </li>
+                            <li>
+                                <p class="text-center"><img
+                                        src="https://freekaamaal.com/images/common-images/fkm-merchant.png"></p>
+                                <span>Merchants</span> <span>Top 200 Merchants who are promoting their products</span>
+                            </li>
+                            <li>
+                                <p class="text-center"><img
+                                        src="https://freekaamaal.com/images/common-images/fb-like.png"></p>
+                                <span>Fans On Facebook</span> <span>2,00,000+ Fans on Facebook</span>
+                            </li>
+                        </ul>
+                    </section>
+                    <section class="info">
+                        <ul class="info__row">
+                            <li>About</li>
+                            <li>Festival Deals</li>
+                            <li>Top Stores</li>
+                            <li>Need Help</li>
+                            <li>Download Apps</li>
+                        </ul>
+                        <section class="about__column">
+                            <ul>
+                                <li><a href="#">About Us</a></li>
+                                <li><a href="#">Advertising Opportunities</a>
+                                </li>
+                                <li><a href="#" target="_blank">Careers</a></li>
+                                <li><a href="#" target="_blank">Blog</a></li>
+                                <li><a href="#">News &amp; Articles</a></li>
+                                <li><a href="#">Testimonial</a></li>
+                                <li><a href="#">Hindi Articles</a></li>
+                                <li><a href="#">Refer and Earn</a></li>
+                            </ul>
+                        </section>
+                        <section class="festival__column">
+                            <ul>
+                                <li><a href="#">Christmas Offers</a></li>
+                                <li><a href="#">New Year Offers</a></li>
+                                <li><a href="#">Republic Day Offers</a></li>
+                                <li><a href="#">Valentine's Day Offers </a></li>
+                                <li><a href="#">Father's Day Offers</a></li>
+                                <li><a href="#">Akshaya Tritiya Offers</a>
+                                </li>
+                                <li><a href="#" target="_blank">Diwali Offers</a>
+                                </li>
+                                <li><a href="#">Holi Offers</a></li>
+                                <li><a href="#">Rakhi Offers </a></li>
+                                <li><a href="#">Independence Day Offers</a></li>
+                                <li><a href="#">Dussehra Offers</a></li>
+                                <li><a href="#">Amazon Great Indian Festive
+                                        Sale</a></li>
+                                <li><a href="#">Flipkart Big Billion Day Sale</a>
+                                </li>
+                            </ul>
+                        </section>
+                        <section class="stores_column">
+                            <ul>
+                                <li><a href="#">kindlifeexclusive</a></li>
+                                <li><a href="#">cultsport</a></li>
+                                <li><a href="#">flipkart</a></li>
+                                <li><a href="#">supertailsexclusive</a>
+                                </li>
+                                <li><a href="#">woodlandworldwide</a></li>
+                                <li><a href="#">pantaloons</a></li>
+                                <li><a href="#">hongskitchen</a></li>
+                                <li><a href="#">truhairandskin</a></li>
+                                <li><a href="#">thetinylane</a></li>
+                                <li><a href="#">tiaraa</a></li>
+                                <li><a href="#">upakarma</a></li>
+                                <li><a href="#">cadbury</a></li>
+                                <li><a href="#">cromaexclusive</a></li>
+                                <li><a href="#">hyugalife</a></li>
+                            </ul>
+                        </section>
+                        <section class="help__column">
+                            <ul>
+                                <li><a href="#">Getting Started</a></li>
+                                <li><a href="#">Contact Us</a></li>
+                                <li><a href="#">FAQ's</a></li>
+                                <li><a href="#">Press</a></li>
+                            </ul>
+                        </section>
+                    </section>
+                </section>
+                <section class="footer2">
+                    <section class="footer2__heading">
+                        <h2 class="waste-heading"># Why Waste Money</h2> <label>When you can get things for free</label>
+                    </section>
+                    <section class="footer2__content">
+                        <h2>Top Online Shopping offers and Latest Promo Codes in India</h2>
+                        <p> Welcome to the world of unbeatable deals, get up to 90% off on fashion, food, electronics,
+                            appliances, groceries, kids products and more. FreeKaaMaal is completely free online
+                            community where you can discover the latest deals, coupons, offers, and freebies. The
+                            website helps you make the best online shopping decisions. Check the top online shopping
+                            offers every day to pocket great savings on all your purchases. </p>
+                        <h2>Best Deals Online to Shop At Lowest Prices</h2>
+                        <p>We research the price history of products to post top deals on our platform. Our deals are
+                            selected from the pool of biggest discounts that have been examined by deal editors. Only
+                            the best deals are picked and displayed on FreeKaaMaal. Our team of deals hunters is
+                            passionate about finding and sharing good deals.</p>
+                        <h2>Latest offers on Fashion, Electronics, Food, Travel and more </h2>
+                        <p>Since 2010, FreeKaaMaal.com is a leader in the world of deals, discounts, and promo codes. At
+                            FreeKaaMaal, our goal is to create an ultimate shopping destination, we bring every type of
+                            imaginable offer. Every day we bring the latest coupon codes, product deals, and other
+                            offers from across the web. No matter what you're buying you should never pay the full
+                            price. Find deals on every category imaginable and our experts make sure they work. Whether
+                            you're looking to find a good deal on a smartphone or wondering how to save on clothes and
+                            groceries, you can find savings solutions on FreeKaaMaal.com. Grab the best offer of the day
+                            to relish the joy of online shopping with us.</p>
+                        <h2>Top Online Shopping Discounts in India</h2>
+                        <p> Our talented team of web developers, deal hunters, editors and more, work hard to ensure a
+                            great experience for you. The online realm of deals, coupon codes, and discounts is vast.
+                            Our team personally reviews more than 2,000 online retailers every day to bring the most
+                            thrilling deals across the internet. Every deal is checked before it is posted to our site.
+                            Our dedication to display only the top online shopping offers in India makes FreeKaaMaal one
+                            of the reliable sites. One complete source to find every best deal online, no need to waste
+                            your time searching for discounts. </p>
+                        <p> Our philosophy to bring deals with the highest standards is why users trust us. We
+                            understand our audiences to deliver what they need. Our deal experts scour the web every day
+                            to find top deals on just about everything. We stand for the best deals that you can ever
+                            get online. </p>
+                        <h2>Best Deals Online For Maximum Savings Today</h2>
+                        <p> We rely on innovative technology to track down the biggest bargains as quickly as possible.
+                            We work in collaboration with top stores to share their great offers. The site is updated
+                            throughout the day to help shoppers save money and time. We want your online shopping
+                            experience to simple, fun, and full of savings. Our website is designed to make your saving
+                            money effortless. Maximize your savings every time with FreeKaaMaal.com. </p>
+                        <h2>Today Online offers of Popular Stores In India </h2>
+                        <p> FreeKaaMaal has partnered with top online stores, so whether you want to buy furniture or
+                            shop for latest fashion the online offers and coupons from all the leading stores are
+                            available here. <a href="#"><b>Latest coupons</b></a> and
+                            deals from famous stores like Myntra, Jabong, Tatacliq, Amazon, shopclues, flipkart, ajio,
+                            pepperfry, paytm, ebay, zomato, faballey, faasos, lenskart, Myvishal etc can be easily
+                            grabbed from here. Our wide collection of partners cover top categories fashion, food,
+                            electronics, mobile recharge, travel, health care, baby care, home appliances etc. </p>
+                        <h2>How to Grab Online Free Stuff India?</h2>
+                        <p> The moment you visit FreeKaaMaal.com, a bundle of fresh deals are available at your service.
+                            These are the best online deals available in India handpicked by the team, these come with a
+                            specific time period. So, you have to use them before they get exhausted. The best part of
+                            FreeKaaMaal is that as the name suggests you can get things even for free. Freebies India
+                            will let you get things at prices as low as 0 rupees. There are options like 100% cashback,
+                            free health check-up, free samples in India, reward on signup, products at rs. 1, free first
+                            ride etc. that can be grabbed under freebies section. Some real useful stuff for free in
+                            India is available to grab in a few clicks with FreeKaaMaal. Visit the <a href="#"><b>Free
+                                    Stuff Deals</b></a> Section for all the
+                            online free stuff in India. <b><i>“Why waste money when you can get things for
+                                    free”.</i></b> </p>
+                        <h3>Loot Deals - Up to 100% Discount on Products</h3>
+                        <p> The real joy of online shopping is when you get things for free and we do this by bringing
+                            up to 100 percent off deals. Products at such big discounts that they are almost free for
+                            you. Grab <a href="#"><b>loot offers</b></a> before they
+                            expire to enjoy real shopping bonanza. Also get products for as low as Rs 1 that take your
+                            shopping experience to the next level. We bring the ongoing loot deals of Free Shopping
+                            sites in India, </p>
+                        <h3>Free Samples in India</h3>
+                        <p>Your shopping experience gets even better with free samples of products. We provide all the
+                            information about free sample campaigns in India. You can easily stay updated with the
+                            ongoing campaigns to grab amazing freebies. India Online Free stuff is only a click away
+                            with FreeKaaMaal. Grab some real useful stuff for free that too in a matter of few clicks.
+                        </p>
+                        <h3>Verified Promo Codes for Fashion, Grocery, Recharge, Food and more</h3>
+                        <p>Every day we bring the latest coupon codes, product deals, and other offers from across the
+                            web. Head to our coupons section to explore latest promo codes of more than 500 stores. Top
+                            coupons of leading online retailers and verified in this section of website. </p>
+                        <p>We've more than 80 categories on FreeKaaMaal.com, ranging from fashion to electronics to food
+                            to travel. When you spot an offer you're excited about, you can redeem it in one click. The
+                            offer will auto-activate once you click "Shop Now" button. </p>
+                        <h3>How to Avail Coupons from FreeKaaMaal</h3>
+                        <p>Coupons come with a specific discount amount that helps you save extra money. You can search
+                            for a coupon code across any category or online store. Once you have searched for your
+                            desired coupon you can copy the code by clicking on GET CODE/show coupons. After this, you
+                            only have to paste the coupon code while checking out from a store. This will give you
+                            instant discount on your shopping. You can see the terms and conditions of the coupon at
+                            FreeKaaMaal to check its validity. </p>
+                        <h3>Best Price Deals on Online Shopping India</h3>
+                        <p>Catch the latest deals in real-time which you can redeem right away. Choose from the limited
+                            time promotions, end of season sales, online shopping sales and other major price cuts. The
+                            deals are labeled with images, pricing, and discounts to let you know about the products and
+                            how much you're saving. We hunt the latest deals of online shopping in India to bring on our
+                            site in real time. </p>
+                        <p>From deals and coupons to unbelievable freebies we present every type of saving you can ever
+                            imagine. Discover online offers in India that are irresistible and simply the best prices on
+                            listed products. </p>
+                        <h3>Cashback offers On Online Shopping India </h3>
+                        <p>Introducing <a href="#"><b>100% Cashback</b></a>, shop from
+                            select online stores to earn cashback at FreeKaaMaal. Get exclusive offers of cashback on
+                            categories like fashion, food, mobile recharge and more. Just follow some simple steps for
+                            assured up to 100% cashback on your purchase.</p>
+                        <h3>Best Holi, Diwali, New Year Shopping Offers</h3>
+                        <p> We all love to shop during the festivals and the online stores come up with special
+                            discounts during this time to help you get the better prices. You don't need to visit every
+                            single site to look for great offers as during these times the team work day and night to
+                            ensure that you don’t miss a good deal across online stores. Whether it is Diwali, Holi,
+                            Rakhi, Dussehra, Republic day, independence day or New year with FreeKaaMaal.com you will
+                            stay notified on all great bargains. You just visit the festive page and you can save while
+                            shopping for festivals. </p>
+                        <h3>Deal of the day - Flipkart, Amazon, Myntra, Shopclues, Paytm</h3>
+                        <p> <a href="#"><b>Deal of the day</b></a> section is
+                            filled with lightning deals that are updated on a daily basis. Find best deals on online
+                            shopping today to shop at the lowest prices. These are the fresh deals that come with a
+                            limited time period. Some of them can even let you avail the product at no cost. With this
+                            section, you don’t have to go through different websites to look for the best offers all
+                            these are handpicked by the deal hunters who have already gone through the search process.
+                            This makes your finding task easy as you get to save your money as well as time. We bring
+                            the best deals for today from leading stores like Amazon, Flipkart, Myntra, Shopclues,
+                            Paytm, Tata CLiQ, Jabong, etc. </p>
+                        <h3>Hot Deals on Online Shopping Today</h3>
+                        <p>In case you have missed a good deal you can still browse the best of the month, and best of
+                            the week section. These sections would help you grab the discounts that you have missed out
+                            in the past. If you want to get today’s best online shopping deals, check the hot deals
+                            section of FreeKaaMaal. So, you can always find top online offers to delight your mood.
+                            Before going ahead with your purchase, check the best deals on online shopping today for
+                            guaranteed savings. </p>
+                        <h3>Best Offers on Amazon, Flipkart, Myntra, Jabong Etc </h3>
+                        <p>FreeKaaMaal is dedicated to bring the best available coupons and discounts to its users. It
+                            is India’s number 1 bargain hunting destination where you get to save a lot while making
+                            your purchase. It provides a comprehensive list of lightning deals, discounts, hot deals,
+                            loot offers, freebies and so much more across top e-commerce giants. Team FreeKaaMaal works
+                            hard to bring the best discounts from top online shopping sites like Amazon, Myntra,
+                            Flipkart, shopclues, pepperfry, Bata, Expedia, MakeMyTrip, BookMyShow etc. With the amazing
+                            discounts available on this site, you don’t have to worry about the rising prices and
+                            expenses and you can get free stuff in India. </p>
+                        <h3>Best Offer of the Day on Fashion, Mobiles and more </h3>
+                        <p>Here you can select your desired item from a different variety of products. So, whether you
+                            want to buy a mobile, laptop, electronics, footwear, beauty items, food, customised
+                            products, computer accessories, grocery, home decor, sunglasses, stationery, kitchen
+                            appliances, laptops, fashion apparels, or cameras, with this section you get to avail
+                            special discount on everything. So before you begin with your online shopping just go
+                            through the category of your choice and get the best price for your product. Whatever you
+                            want to purchase, grab the lowest prices ever with offers of the day. </p>
+                        <h3>Best Offers For Today Online </h3>
+                        <p>The newsletter of the website includes of all the latest online shopping offers in India.
+                            Grab the best offers of the day across categories like fashion, electronics, food, mobile
+                            recharge, travel etc. When you subscribe to FreeKaaMaal newsletter, the information
+                            regarding the offer is sent to you on a regular basis in the form of an email. There are
+                            already so many people who have subscribed to the FreeKaaMaal newsletter and availing
+                            numerous benefits. </p>
+                        <h3>Top Shopping Deals and Coupons on Your Mobile </h3>
+                        <p>FreeKaaMaal app is your access to deals, promo codes, and freebies right on your mobile
+                            phone. Our Android App is there to offer you a smooth on the go shopping experience full of
+                            savings. The app is designed to make the customer's shopping experience easier. Keep
+                            yourself notified with the best deals on online shopping by downloading our app. This app is
+                            available for download from Google play store, free of cost. The app has many special
+                            features like the one with which you can see the number of people currently watching a
+                            bargain. This will help you make better shopping decisions. </p>
+                        <h3>Online Shopping With Best Discounts in India</h3>
+                        <p>Online shopping is a welcome change in the last few years, we promise to make this experience
+                            smarter for you always with the handpicked deals across categories. Check the always updated
+                            deals, coupons, and freebies on FreeKaaMaal to shop at the lowest prices. </p>
+                        <p>A quarter million members on our platform post and discuss loot deals present on the web.
+                            FreeKaaMaal Members "The Deal Hunters" who post the deals get rewards for their effort. They
+                            share and post offers, coupons, hot deals, discounts coupons &amp; more. FreeKaaMaal members
+                            earn GVs for their contribution to the site. The points that they receive can be redeemed to
+                            shop online, mobile recharge, etc. Together we stand as a community of like-minded 2,50,000+
+                            members. </p>
+                        <p>We are, as we always were, India’s No.1 Bargain-Hunting Website with over 5 million
+                            visits/months. We have a ‘more than’ dedicated team which acts like an eagle hunting the
+                            best deals and offers present online. With the latest updated deals, you are guaranteed to
+                            get the best discounts on shopping. </p>
+                    </section>
+                    <section class="footer2__rights">
+                        <p> Copyright 2010-2022. FreeKaaMaal.com. All Rights Reserved. All content, trademarks and logos
+                            are copyright of their respective owners. </p>
+                        <p><b>Disclaimer</b>: FreeKaaMaal.com is community platform where our users find and submit
+                            deals from various website across the world, we do not guarantee, approve or endorse the
+                            information or products available at these sites, nor does a link indicate any association
+                            with or endorsement by the linked site to FreeKaaMaal.com. Readers are requested to be
+                            cautious while shopping at newly launched and non-trusted e-commerce sites.</p>
+                        <p class="text-center"> <a href="#" class="dmca-badge"> <img
+                                    src="https://images.freekaamaal.com/common-images/dmca.jpg?ID=702328c3-7864-4769-a469-551ff077b0fb"
+                                    alt="DMCA.com Protection Status"></a>
+
+                        </p>
+                    </section>
+                </section>
+            </section>
+        </section>
+    </main>
+</body>
+
+</html>
